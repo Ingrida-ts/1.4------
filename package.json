@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": {
-  "url": "https://ingrida-ts.github.io/1.3-Grids-and-bem/"
+  "url": "https://ingrida-ts.github.io/1.4-------/"
   },
   "scripts": {
     "start": "webpack serve",
