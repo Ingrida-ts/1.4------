@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:TT Lakes;
+    font-size: 16px;
+    color:$text_main;
+    box-sizing: border-box;
+  
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+  
+
+.content{
+    max-width: 320px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+    //box-shadow: 16px 0px 20px red;
+    box-shadow: 16px 0px 52px 0px #0E185033;
+   
+}
+.button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FF3E79;
+    margin: 8px;
+    
+}
+.button:hover{
+    background-color: #EE2D68;
+    transform:translateX(20px);
+}
+
+.button:active{
+    background-color: #DD1C57;
+    
+}
+.button__image{
+    vertical-align: middle;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+   padding-bottom:24px;
+}
+.logo{
+    flex: 3;
+    padding-left: 5%;
+}
+.nav{
+    display: flex;
+    flex:1 1 auto;
+}
+.list__item{
+    list-style-type: none;
+}
+.list__item-link{
+    display: block;
+    margin: 16px 8px;
+    border: 2px solid #ffffff00;  
+}
+.list__item-link:hover{
+    border: 2px silid $border_h1;
+    color:$border_h1;
+}
+.list__item-link:focus{
+    color:#7E7E82;
+    position: relative;
+}
+.list__item-link:focus::before{
+    position: absolute;
+    background-color: $border_h1;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    left: -34px;
+    top: -4px;
+    content: "";
+    height: 32px;
+    width: 4px;
+}
+
+
+.footer__tel{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.footer__contacts{
+    display: flex;
+    flex-direction: column;
+}
+
+.language__list{
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.language__item{
+    list-style-type: none;
+    margin:3.5px;
+}
+.language__item:hover{
+    color:$border_h1;
+}
+.language__item:focus{
+    color:#7E7E82;
+}
+
+foter__button{
+    display: flex;
+}
